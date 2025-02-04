@@ -152,3 +152,60 @@ nav button {
 
 
 }
+.first {
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+    max-width: 70vw;
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+
+}
+
+.container {
+    padding: 20px;
+    margin: 100 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.box {
+    width: 250px;
+    margin: 0px;
+    transform: 1s;
+
+
+
+}
+
+.box img {
+    display: block;
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+    margin: 0 10px;
+
+}
+
+.box :hover {
+    transform: scale(1.1);
+    z-index: 2;
+}
+.container2{
+    display: flex;
+    justify-content:space-evenly ;
+    color: white;
+    align-items: center;
+    min-height: 400px;
+}
+.container2 div{
+    height: 370px;
+    width: 335px;
+    margin: 60px;
+    background-color:rgb(96, 80, 112);
+    border-radius: 15px;
+    height: 230px;
+    width: 500px;
+}
